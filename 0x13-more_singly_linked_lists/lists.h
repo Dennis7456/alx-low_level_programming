@@ -1,7 +1,13 @@
 #ifndef HOLBERTON
 #define HOLBERTON
-
-
+/**
+ * struct listint_s - singly linked list
+ * @n: integer
+ * @next: points to the next node
+ *
+ * Description: singly linked list node structure
+ * for Holberton project
+ */
 typedef struct listint_s
 {
 	int n;
@@ -26,7 +32,3 @@ size_t free_listint_safe(listint_t **h);
 listint_t *find_listint_loop(listint_t *head);
 void _printd(int n);
 #endif
-© 2021 GitHub, Inc.
-Terms
-Privacy
-
