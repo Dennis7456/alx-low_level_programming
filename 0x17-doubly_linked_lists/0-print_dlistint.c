@@ -5,7 +5,7 @@
  * print_dlistint - display all elements of dlistint_t list
  * @h: pointer to the start of the linked list
  * 
- * Retuen the number of nodes
+ * Return the number of nodes
  * 
  */
 
