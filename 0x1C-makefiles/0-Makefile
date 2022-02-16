@@ -1,10 +1,2 @@
-# -*- Makefile -*-
-
 all: main.o school.o
 	clang main.o school.o -o school
-
-school.o: school.c
-	clang school.c -c
-
-main.o: main.c
-	clang main.c -c 
