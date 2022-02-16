@@ -1,2 +1,2 @@
-all: main.o school.o
-	clang main.o school.o -o school
+all: main.c school.c
+	clang main.c school.c -o school
